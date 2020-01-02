@@ -1,0 +1,78 @@
+﻿
+
+body {
+    background-image: url(Pictures/Form.jpg);
+    background-size: cover;
+    align-content: center;
+    vertical-align: central;
+    padding-top: 30px;
+}
+
+.ddl
+    {
+    margin-left:20px;
+    border-radius:5px;
+    padding:3px;
+    background-image:url('Content/Pictures/arrow.png');
+    background-position:88px;
+    background-repeat:no-repeat;
+    text-indent: 0.01px;/*In Firefox*/
+    text-overflow: '';/*In Firefox*/
+    overflow: hidden;         
+}
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.angleButton{
+    padding-top:20px;
+    padding-bottom: 60px;
+}
+.timeButton {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.lenghtButton {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.massButton {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.pressureButton {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.energyButton {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
+        .jumbotron {
+            margin-top: 20px;
+        }
+
+        .body-content {
+            padding: 100px;
+            padding-top: inherit;
+        }
+    }
+}
+.col-sm-6 {
+    padding-left: 100px;
+    padding-right: 0px;
+}
